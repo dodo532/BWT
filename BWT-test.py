@@ -1,5 +1,10 @@
 string = input("inserisci una parola: ")
-print(stringa)
+print(string)
 print("1--> aggiunta $")
-stringa=+"$"
-print(stringa)
+string+="$"
+print(string)
+print()
+rotations = []
+for i in range(len(string)):
+    rotations.append(string[i:] + string[:i])
+print(rotations)
