@@ -14,5 +14,5 @@ def inizio_client():
 
         print(f"BWT ricevuto dal server: {bwt_result}")
 
-    if name == "main":
-        start_client()
+if __name__ == "__main__":
+    inizio_client()
