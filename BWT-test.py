@@ -19,3 +19,8 @@ print()
 print("2--> si ordina l'output")
 print()
 print(rotations)
+
+bwt = []
+for i in rotations:
+    bwt += i[-1]
+print(bwt)
